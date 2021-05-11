@@ -9,7 +9,7 @@ import UIKit
 
 class ProfileView: UIView {
     
-    @IBOutlet weak var statusText: UITextField!
+
     
     @IBOutlet weak var profilePicture: UIImageView!
     
@@ -20,4 +20,5 @@ class ProfileView: UIView {
     @IBOutlet weak var city: UILabel!
     
     
+    @IBOutlet weak var text: UITextView!
 }
